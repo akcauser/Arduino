@@ -1,6 +1,7 @@
 #include <SoftwareSerial.h>
 SoftwareSerial BT(6, 7); 
 
+// bilgisayardan gönderdiğin sinyal ile arduino'ya bağlanmış ledi açma kapama işlemi yapılmaktadır.
 int led = 11;
 char a; 
 
